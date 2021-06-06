@@ -25,6 +25,26 @@ public class GravityControl : MonoBehaviour
         g.Normalize();
 
         Physics.gravity = g * _gravityNomal * _gravtyScale;
-        Debug.Log(Physics.gravity);
+        // Debug.Log(Physics.gravity);
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        Debug.Log(other.gameObject + "와 충돌했다");
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        Debug.Log(other.gameObject + "와 떨어졌다");
+    }
+    
+    void OnCollisionStay(Collision other)
+    {
+        Debug.Log(other.gameObject + "와 충돌중이다");
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.gameObject + "와 충돌을 체크했다");
     }
 }
