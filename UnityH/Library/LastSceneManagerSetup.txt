@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MovingObjectScene.unity
+- path: Assets/Scenes/ProjectielScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

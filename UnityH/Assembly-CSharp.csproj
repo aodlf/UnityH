@@ -69,8 +69,10 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Scripts\BoombObj.cs" />
     <Compile Include="Assets\Scripts\ButtonEvents.cs" />
+    <Compile Include="Assets\Scripts\CannonBall.cs" />
     <Compile Include="Assets\Scripts\ControlScript.cs" />
     <Compile Include="Assets\Scripts\GravityControl.cs" />
+    <Compile Include="Assets\Scripts\LuncherControl.cs" />
     <Compile Include="Assets\Scripts\MoveControl.cs" />
     <Compile Include="Assets\Scripts\MoveControl2.cs" />
     <Compile Include="Assets\Scripts\RayTestScript.cs" />
