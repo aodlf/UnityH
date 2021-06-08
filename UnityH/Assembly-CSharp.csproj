@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\ControlScript.cs" />
     <Compile Include="Assets\Scripts\GravityControl.cs" />
     <Compile Include="Assets\Scripts\MoveControl.cs" />
+    <Compile Include="Assets\Scripts\MoveControl2.cs" />
     <Compile Include="Assets\Scripts\RayTestScript.cs" />
     <Compile Include="Assets\Scripts\SampleObject.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
